@@ -1,0 +1,18 @@
+<%- include('partials/top') %>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>Room <%= roomId %></h1>
+
+            <button class="btn btn-primary" type="button" data-listen-button>Start Listening <i class="fas fa-microphone"></i></button>
+        </div>
+    </div>
+</div>
+
+<script>
+    roomId = <%= roomId %>
+    roomInit()
+</script>
+
+<%- include('partials/bottom') %>

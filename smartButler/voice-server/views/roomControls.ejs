@@ -1,0 +1,27 @@
+<%- include('partials/top') %>
+<link rel="stylesheet" href="/css/roomControl.css" />
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1 id = 'title'>Room <%= roomId %></h1>
+
+            <button class="btn btn-primary" type="button" data-listen-button id='btn'>
+            <i class="fas fa-microphone" style='font-size:38px;'></i>
+            </button>
+            <button class="btn btn-primary" type="button" data-listen-button id='btnStop'><i class='fas fa-microphone-slash' style='font-size:28px;color:black' id = 'mic'></i>
+            </button>
+            <p id = 'output'><strong>Output:</strong></p>
+            <p id='result'></p>
+            <p id='stopListening'><strong>Stop Listening</strong></p>
+            <p id='startListening'><strong>Start Listening</strong></p>
+            
+        </div>
+      
+
+<script>
+    roomId = <%= roomId %>
+    roomInit()
+</script>
+
+<%- include('partials/bottom') %>

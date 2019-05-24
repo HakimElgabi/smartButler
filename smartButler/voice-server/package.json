@@ -1,0 +1,35 @@
+{
+  "name": "smart-butler-voice-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./node_modules/nodemon/bin/nodemon.js app",
+    "debug": "node ./node_modules/nodemon/bin/nodemon.js --inspect app",
+    "build": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/SHAHID786s/smartButler.git"
+  },
+  "author": "Alex Law",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/SHAHID786s/smartButler/issues"
+  },
+  "homepage": "https://gitlab.com/SHAHID786s/smartButler#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "http-errors": "^1.7.1",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "nodemon": "^1.18.10",
+    "prettier": "^1.16.4",
+    "serialport": "^7.1.4"
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "voiceServer": {
+        "api": "http://192.168.137.1:3030"
+    },
+    "mqttServer": {
+        "broker": "tcp://192.168.137.1:1883",
+        "brokerIp": "192.168.137.1",
+        "api": "http://192.168.137.1:4040"
+    },
+    "butlers": [
+        {
+            "channel": "butler1"
+        },
+        {
+            "channel": "butler2"
+        }
+    ]
+}
