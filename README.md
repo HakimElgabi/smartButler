@@ -1,5 +1,5 @@
 # smartButler
-An IoT project which simulates a smart Butler bringing items to a room. The different services are developed in a variety of coding languages such as C++, Python and NodeJS.
+An IoT project which simulates a smart Butler bringing items to a room via voice commands. The different services are developed in a variety of coding languages such as C++, Python and NodeJS.
 
 This is a copy of a Group project private repository
 
